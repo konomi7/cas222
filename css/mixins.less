@@ -1,0 +1,39 @@
+// out: null
+
+/* Parametric mixin for headings */
+
+.colorBackground(@color: red;) {
+    background-color: @color;
+}
+
+.imageBox(@width: 49%; @height: auto;) {
+    width: @width;
+    height: @height;    
+    display: inline-block;    
+}
+
+.frame(@borderSize: 1px; @borderType: solid; @borderColor: blue; @borderRadius: 20px;) {
+    border: @borderSize @borderType @borderColor;
+    border-radius: @borderRadius;    
+}
+
+.align(@pos: center;) {
+    text-align: @pos;
+}
+
+.textFormat(@font: "Comic Sans MS", cursive, sans-serif; @color: @color4; @size: 1em; @wei: bold;) {
+    font-family: @font;
+    color: @color;
+    font-size: @size;
+    font-weight: @wei;    
+}
+
+.measurement(@w: auto; @h: auto;) {
+    width: @w;
+    height: @h;
+}
+
+
+
+
+
